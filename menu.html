@@ -13,57 +13,215 @@
 
 <body>
 
-    <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-light">
-    <a class="navbar-brand" href="#">
-        <img src="img/logo.png" width="220px" height="220px">
-    </a> 
+    <div class="container">
+        <nav class="navbar navbar-expand-sm navbar-light navbar-expand-lg">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.png" width="220px" height="220px">
+            </a>
 
 
-    <div class="collapse navbar-collapse">
-    
-        <ul class="navbar-nav">
-    
-            <li class ="nav-item">
-                 <a class = "nav-link" href="index.html"> Home </a>
-            </li>
+            <div class="collapse navbar-collapse">
 
-            <li class ="nav-item">
-                <a class = "nav-link" href="menu.html"> Menu </a>
-           </li>
+                <ul class="navbar-nav">
 
-           <li class ="nav-item">
-            <a class = "nav-link" href="#"> Fale Conosco </a>
-       </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html"> Home </a>
+                    </li>
 
-         </ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="menu.html"> Menu </a>
+                    </li>
 
-    </div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="talk_us.html"> Fale Conosco </a>
+                    </li>
 
-</nav>
+                </ul>
 
-<section id="menu">
-    <div class ="container-fluid text-center margin">
-        <h3> CARDAPIO </h3>
-        <div class ="container">
-            <div class ="row">
-                <div class ="col-4">
-                    <img src ="img/fritas.jpeg" width="100%">
-
-                </div>
-
-                <div class ="col-4">
-                    <img src ="img/guacamole.jpg" width="100%">
-
-                </div>
-
-                <div class ="col-4">
-                    <img src ="img/fritas.jpeg" width="100%">
-
-                </div>
             </div>
-        </div>
+
     </div>
-     
+
+    </nav>
+
+    <section id="menu">
+        <div class="container-fluid text-center">
+            <h1> PRATOS PRINCIPAIS </h1>
+            <div class="container">
+                <div class="row">
+                    <div class="col-3">
+                        <h4> Burritos</h4>
+                        <input type="radio" name="order" /> Selecionar <br>
+                        <img src="img/burritos.png" width="100%"> <br>
+                        <h6> Recheio a escolher: envolvido por Tortilha; <br> Guacamole; Sour Creme
+                            Pico de Gallo; Alface; Mussarela; <br> |Porção Individual| </h6>
+                        <B><span>R$ 19,90</span></B> <br>
+                        <br> <input type="radio" name="flavor" /> Chilli Beans
+                        <br> <input type="radio" name="flavor" /> Frango
+                        <br> <input type="radio" name="flavor" /> Pork
+                        <br>
+                        <br>
+
+                    </div>
+
+                    <div class="col-3">
+                        <h4> Feijão Mexicano</h4>
+                        <input type="radio" name="order" /> Selecionar <br>
+                        <img src="img/feijao_mexicano.png" width="100%"> <br>
+                        <h6> Feijão vermelho apimentando contendo <br> Carne moida, Calabresa, Nachos, Bacon e Batata
+                            <br>
+                            |Porção Indivual| <br> <br> </h6>
+                        <B><span>R$ 24,90</span></B> <br>
+                        <h6> Prato em formato unico </h6>
+
+                    </div>
+
+                    <div class="col-3">
+                        <h4> Guacamole</h4>
+                        <input type="radio" name="order" /> Selecionar<br>
+                        <img src="img/guacamole.png" width="100%"> <br>
+                        <h6> Guacamole tradicional contendo Abacate, <br> Limão, Tomate, Pimenta e pode ser uma <br>
+                            entrada excelente com chips/nachos e sour cream <br> |Porção para 2 pessoas |
+                        </h6>
+                        <b><span> R$ 19,90 </span></b>
+                        <h6> Prato em formato unico </h6>
+
+                    </div>
+
+                    <div class="col-3">
+
+                        <h4> Nachos </h4>
+                        <input type="radio" name="order" /> Selecionar<br>
+                        <img src="img/nachos.png" width="100%"> <br>
+                        <h6> Nachos é um salgadinho a base de milho, <br>
+                            que pode ser acompanhado com outro prato <br> mexicano,
+                            ou até ser consumido como <br> refeição principal. <br> |Porção para 2 pessoas |
+                        </h6>
+                        <b><span> R$ 24.90 </span></b>
+                        <h6> Prato em formato unico </h6>
+                    </div>
+
+                    <H1>ACOMPANHAMENTOS</H1>
+
+                    <div class ="col-4">
+                        <h4>Refrigerante </h4>
+            <input type="checkbox" /> Selecionar <br>
+                <img src="img/soda.png" width="100%"> <br>
+                    <h6> Escolher o sabor abaixo </h6>
+                        <b><span> R$ 7.90 </span></b><br>
+                            <br> <input type="radio" name="soda" /> Cola
+                            <br> <input type="radio" name="soda" /> Guaraná
+                            <br> <input type="radio" name="soda" /> Laranja
+                            <br> <input type="radio" name="soda" /> Uva
+                            <br> <input type="radio" name="soda" /> Limão
+                        <br>
+                    </div>
+                    <div class ="col-4">
+                        <h4> Fritas</h4>
+             <input type ="checkbox" /> Selecionar <br>
+                <img src ="img/fries.png" width="100%"> <br>
+                     <h6> Escolha um adicional </h6>
+                        <b><span> R$ 19,90 </span></b>
+                            <br> <input type="checkbox" /> Bacon
+                        <br> <input type="checkbox" /> Cheadder
+                    </div>
+
+                    <div class ="col-4">
+                        <h4> Paleta </h4>
+        <input type="checkbox" /> Selecionar <br>
+            <img src="img/paleta.png" width="100%"> <br> 
+                <h6> Escolha o sabor </h6>
+                    <b><span> R$ 9,90 </span></b>
+                    <br> <input type="radio" name="soda" /> Baunilha
+                            <br> <input type="radio" name="soda" /> Morango
+                            <br> <input type="radio" name="soda" /> Chocolate
+                            <br> <input type="radio" name="soda" /> Leite Ninho
+                            <br> <input type="radio" name="soda" /> Doce de Leite
+                    </div>
+                    
+                
+                
+                <H1>FORMA DE PAGAMENTO</H1>
+
+                <div class ="col-4">
+                    <div class ="creditcard">
+                        <input type ="radio" name ="selector" /> Cartão de Crédito <br>
+                        <img class ="pay" src = "img/visa.png"> 
+                        <img class ="pay" src ="img/master.png"> <br>
+                    </div>
+
+                </div>
+
+                <div class ="col-4">
+                    <div class ="creditcard">
+                        <input type ="radio" name ="selector" /> Ticket Restaurante <br>
+                            <img class ="pay" src = "img/ticket.png"> 
+                      <br>
+                  </div>
+                
+            </div>
+
+                <div class ="col-4">
+
+                    <div class ="creditcard">
+                        <input type ="radio" name ="selector" /> Dinheiro <br>
+                            <img class ="pay" src ="img/money.png" > <br>
+                
+                    </div>
+                </div>
+
+                
+
+                <div class ="col-12 text-justify receipt">
+
+                    <h1>RECIBO</h1>
+
+                    <article>
+                        <br>
+                    
+                        1 - Burritos..................................................................R$ 19,90 <br>
+                        1 - Feijão mexicano.......................................................R$ 24,90 <br>
+                        2 - Nachos...................................................................R$ 49,80 <br>
+                        1 - Refrigerante............................................................R$ _7,90 <br>
+                        1 - Paleta.....................................................................R$ _9,90 <br>
+                        <br>
+                        <br>
+                        Total.........................................................................R$ 112,40 <BR>
+                        <br>
+                        <br>
+                        <br> <input type="submit" value="Finalizar Pedido" />
+                        <br>
+                        <br>
+                            
+            
+                    
+                        
+            
+            
+            
+            
+            
+                    </article>
+            
+                </div>
+        </div>
+
+    </div>
+
+
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
 </body>
+
+
+
+<footer>
+
+    Site desenvolvido por André Brandão © 2021 TODOS OS DIREITOS RESERVADOS
+
+
+</footer>
 
 </html>
